@@ -1,6 +1,20 @@
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: orange;
+    color: blueviolet;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 
+
+
+}
+
 * {
     font-family: 'Fraunces', serif;
     color: #fff;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px;
 }
 
 body {
@@ -69,4 +83,28 @@ button:focus {
 
 #valor-anterior {
     font-size: 2em;
+}
+
+.footer{
+    margin: 30px 0px 0px 0px; 
+    padding: 50px 50px 10px 10px;
+
+    text-align: justify;
+    border-bottom: 1px solid black;
+    display: block;
+    color:cadetblue;
+    text-decoration: none;
+    padding: 8px 0px 8px 16px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10rem;
+    background-color: brown
+    
+}
+
+
+footer svg{
+width: 3%;
+color:rgb(171, 204, 24);
+
 }
